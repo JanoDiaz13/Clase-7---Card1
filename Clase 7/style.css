@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(46, 44, 44);
+}
+
+nav {
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(243, 242, 242);
+    height: 600px;
+    width: 80px;
+    overflow: hidden;
+    color: rgb(117, 117, 117);
+}
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+    width: 80px;
+
+}
+
+li a {
+    display: block;
+    color: rgb(117, 117, 117);
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
