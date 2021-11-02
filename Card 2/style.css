@@ -1,0 +1,177 @@
+* {
+    
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: auto;
+    background: rgb(16, 24, 39);
+    width: 80%;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 100px;
+    width: 82%;
+
+
+}
+
+header p {
+    display: inline-block;
+    margin: 0;
+    height: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.container-1 {
+    position: relative;
+    margin: 20px 0;
+    width: 450px;
+
+}
+
+.container-1 input#search {
+    width: 450px;
+    height: 40px;
+    background: #1d283c;
+    border: none;
+    font-size: 14px;
+    float: left;
+    color: #1d283c;
+    padding: 0 0 0 45px;
+    border-radius: 5px;
+}
+
+.container-1 .icon {
+    position: absolute;
+    top: 50%;
+    margin: 13px 0 0 15px;
+    color: #fff;
+}
+
+.botonh{
+    background-color: #2869ff;
+    height: 30px;
+    border: none;
+    color: #fff;
+    margin: 10px 0 0 0;
+    padding: 4px 8px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contenedor {
+    display: inline-block;
+    margin: 0 10px 10px;
+    position: relative;
+    height: 450px;
+    width: 400px;
+    background: #1d283c;
+    border-radius: 5px;
+}
+
+#contenedor2 {
+    display: inline-block;
+    margin: 0 10px 10px;
+    position: relative;
+    height: 300px;
+    width: 400px;
+    background: #1d283c;
+    border-radius: 5px;
+}
+
+.image {
+    position: absolute;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    height: 45%;
+    width: 100%;
+
+
+}
+
+.image img {
+    height: 100%;
+    width: 97%;
+}
+
+.datos {
+    position: absolute;
+    left: 6px;
+    bottom: 0;
+    height: 51%;
+    width: 97%;
+
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.categoria1,
+.categoria2,
+.categoria3,
+.categoria4,
+.categoria5,
+.categoria6 {
+    font-weight: 600;
+    color: #818792;
+    height: 35px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.cont1,
+.cont3,
+.cont4,
+.cont5,
+.cont6 {
+    font-weight: normal;
+    color: #fff;
+}
+
+.boton {
+    background-color: #25a1693b;
+    border: none;
+    color: #25a16a;
+    padding: 4px 8px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+
+
+}
+
+#botonoff {
+    background-color: #596f9b2d;
+    border: none;
+    color: #596f9b;
+    padding: 4px 10px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
